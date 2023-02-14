@@ -1,0 +1,3 @@
+* Fix rating hearts not showing up properly.
+* Fix cast filtering.
+* Press enter to search.
