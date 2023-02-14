@@ -14,7 +14,7 @@ function roundedToFixed(input, digits){
 let getMovieData = () => {
 
     let movieName = movieNameRef.value;
-    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${mykey}`;
+    let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${mykey}`;
 
     if (movieName == "") {
         infoSection.innerHTML = "<p class='error'>Please enter a valid movie name.</p>";
