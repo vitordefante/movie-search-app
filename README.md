@@ -25,11 +25,6 @@ Here are a few examples of how you can use the Movie Finder website:
 3. View the search results.
 4. Click on a movie to view more details.
 
-### Saving favorite movies
-1. Search for a movie.
-2. Click the "Add to Favorites" button.
-3. View your list of favorite movies by clicking "Favorites" in the navigation.
-
 ## Contributing
 If you would like to contribute to the project, please follow these steps:
 
