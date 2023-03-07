@@ -4,6 +4,12 @@ https://vitordefante.github.io/movie-search-app/ 🔗
 A small project for practicing my JavaScript skills. 
 The **[Movie Search App](https://vitordefante.github.io/movie-search-app/)** is a website that allows users to search for movies using the OMDB API.
 
+## Screenshots
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <img src="img/Macbook.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;">
+  <img src="img/Iphone.png" style="width: 150px; margin-right: 20px; margin-bottom: 20px;">
+</div>
+
 ## Features
 - Search for movies by title.
 - View movie details, including poster, year, genre, and plot.
