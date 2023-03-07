@@ -22,11 +22,9 @@ body {
     padding-top: 50px;
     background-color: hsla(0, 0%, 100%, 0.904);
     display: flex;
-    min-height: 100vh;    
-
+    min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
 }
 
 #wrapper {
@@ -152,7 +150,7 @@ body {
 }
 
 .actor-link {
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 15px;
     margin-right: 2px;
 }
@@ -185,7 +183,11 @@ body {
         margin: 0;
         box-sizing: border-box;
     }
-   
+    
+
+    #margin {
+        margin-bottom: 30px;
+    }
     body {
         margin: 0;
         padding: 0px;
@@ -196,7 +198,6 @@ body {
         box-shadow: none;
         width: 100%;
         margin: 0;
-        
         border-radius: 0px;
     }
 

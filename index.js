@@ -1,3 +1,4 @@
+
 let movieNameRef = document.getElementById("search-text");
 let searchButton = document.getElementById("search-button");
 let infoSection = document.getElementById("movie-info");
@@ -7,12 +8,17 @@ function roundedToFixed(input, digits){
     return (Math.round(input * rounder) / rounder).toFixed(digits);
   }
 
-
+//run on enter key press
+movieNameRef.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        searchButton.click();
+    }
+});
 
 //function to fetch data from the API
 
 let getMovieData = () => {
-
     let movieName = movieNameRef.value;
     let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${mykey}`;
 
@@ -48,7 +54,7 @@ let getMovieData = () => {
 
             const awards = () => {
                 if (data.Awards == "N/A") {
-                    return "This movie has no registred awards.";
+                    return "This movie has no registred awards";
                 } else {
                     return data.Awards;
                 }
